@@ -6,7 +6,7 @@ antigen() {
 
 		[ -d "$PPATH" ] || git clone  "https://github.com/$1" "$PPATH" 
 
-		[ -e "$PPATH/"*.zsh ] && source "$PPATH/"*.zsh
+		 source "$PPATH/"*.zsh
 
 	fi
 }
